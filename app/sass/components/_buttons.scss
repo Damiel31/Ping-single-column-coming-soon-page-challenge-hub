@@ -1,0 +1,15 @@
+button {
+    height: 2.5rem;
+    background-color: $blue;
+    color: white;
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 1.4375rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: hsl(223, 87%, 70%);;
+    }
+}

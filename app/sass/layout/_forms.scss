@@ -1,0 +1,53 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 2.875rem;
+
+    .emailAddress {
+        height: 2.5rem;
+        width: 100%;
+        border: none;
+        border: solid 1px $paleBlue;
+        border-radius: 1.4375rem;
+        padding: 1rem;
+        font-family: inherit;
+        font-weight: 300;
+
+        &::placeholder {
+            color: $blue;
+        }
+    }
+
+    #invalidEmailMessage {
+        font-size: 0.8125rem;
+        font-weight: 300;
+        font-style: italic;
+        color: $lightRed;
+        margin: 0;
+        display: none;
+    }
+
+    .emailAddressInvalid {
+        border: none;
+        border: solid 1px $lightRed;
+    }
+
+}
+
+@media screen and (min-width: 50em) { 
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .emailAddress {
+                width: 26.25rem;
+            }
+
+            button {
+                width: 12.5rem;
+            }
+            
+        }
+}

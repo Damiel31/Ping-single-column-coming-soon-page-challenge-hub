@@ -1,0 +1,43 @@
+main {
+
+    margin-top: 2.75rem;
+
+    .heroTitle {
+
+        text-align: center;
+
+        h1 {
+            color: $gray;
+            font-weight: 300;
+        }
+
+        span {
+            color: $veryDarkBlue;
+            font-weight: 700;
+        }
+
+        p {
+            color: $veryDarkBlue;
+            font-weight: 300;
+            font-size: 0.9125rem;
+        }
+    }
+
+}
+.heroImage {
+    margin:  0 auto;
+    width: 23.125rem;
+    height: 12.3125rem;
+    background-image: url('/images/illustration-dashboard.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media screen and (min-width: 69.375em) { 
+   .heroImage {
+        margin:  0 auto;
+        width: 40.125rem;
+        height: 23.9375rem;
+   }
+}

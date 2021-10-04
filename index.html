@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/dist/styles.css">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+
+<body>
+
+  <header>
+    <img src="/images/logo.svg" alt="Logo">
+  </header>
+
+  <main>
+    <section class="heroTitle">
+      <h1>We are launching <span>soon!</span></h1>
+      <p>Subscribe and get notified</p>
+    </section>
+
+    <form>
+      <div >
+        <input type="email" class="emailAddress" id="emailAddress" placeholder="Your email address...">
+        <p id="invalidEmailMessage">Please provide a valid email address</p>
+      </div>
+      <button type="button" onclick="notifyEmailAddress()">Notify Me</button>
+    </form>
+  </main>
+
+  <section class="heroImage"></section>
+
+  <footer>
+    <section class="socialMedia">
+      <i class="fab fa-facebook-f "></i>
+      <i class="fab fa-twitter "></i>
+      <i class="fab fa-instagram "></i>
+    </section>
+    <p>
+      &copy; Copyright Ping. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="/app/js/main.js"></script>
+</body>
+</html>
